@@ -80,14 +80,14 @@ a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 #banner {
-    background-image: url("../images/index_banner.png");
+    background-image: url("http://7d9o6w.com1.z0.glb.clouddn.com/index_banner.png");
     background-position: center center;
     background-size: cover;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.02);
 }
 #about-banner {
-    background-image: url("../images/about_banner.png");
+    background-image: url("http://7d9o6w.com1.z0.glb.clouddn.com/about_banner.png");
     background-position: center center;
     background-size: cover;
     height: 400px;
