@@ -297,6 +297,11 @@ section > div > div >h2 {
     -webkit-transition: all .5s;
     transition: all .5s;
 }
+
+.cases   h2{
+font-size: 1.6em;
+font-weight: normal;
+}
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
