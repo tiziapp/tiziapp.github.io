@@ -60,11 +60,11 @@
 
     <section id="banner">
         <div class="container">
-            <h1 class="hero-text animated fadeInDown">
+            <h1 class="hero-text wow fadeInDown">
                         我们不仅为您提供技术,<br>
                         我们还是您的合作伙伴。
                     </h1>
-            <p class="center-block animated fadeInDown">
+            <p class="center-block wow fadeInDown">
                 <a href="/about.html" class="center-block button-outline">了解我们</a>
             </p>
         </div>
@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-md-12 service-items ">
                         <div class="col-md-4">
-                            <div class="service-item">
+                            <div class="service-item wow fadeInLeft">
                                 <img src="http://7d9o6w.com1.z0.glb.clouddn.com/web.png" alt="网站设计开发" >
                                 <h3>网站设计开发</h3>
                             </div>
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 ">
-                            <div class="service-item">
+                            <div class="service-item wow fadeInRight">
                                 <img src="http://7d9o6w.com1.z0.glb.clouddn.com/wechat.png" alt="微信定制开发">
                                 <h3>微信定制开发</h3>
                             </div>
@@ -107,7 +107,7 @@
                 <h2>我们的案例</h2>
                 <div class="row">
                     <div class="col-md-12 ">
-                        <div class="col-md-6 ">
+                        <div class="col-md-6 wow pulse">
                             <img src="http://7d9o6w.com1.z0.glb.clouddn.com/case1.png" class="big1-case">
 
                         </div>
@@ -116,7 +116,7 @@
                             <img src="http://7d9o6w.com1.z0.glb.clouddn.com/case2.png" class="small1-case">
                             <img src="./images/case3.png" class="small2-case ">
                         </div>
-                        <div class="col-md-3 ">
+                        <div class="col-md-3 wow pulse">
                             <img src="http://7d9o6w.com1.z0.glb.clouddn.com/case4.png" class="small3-case">
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 ">
-                            <div class="aboutus-right">
+                            <div class="aboutus-right wow fadeInRight">
                                 <img src="http://7d9o6w.com1.z0.glb.clouddn.com/aboutus.png">
                             </div>
                         </div>
@@ -193,7 +193,10 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
+    <script src="//cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+
     <script>
+    new WOW().init();
     $(function(){
     $.scrollUp({
             scrollName: "scrollUp",
@@ -206,8 +209,8 @@
             activeOverlay: !1
           });
 
-    $('#service .service-item img:first').addClass('animated fadeInLeft');
-    $('#service .service-item img:last').addClass('animated fadeInRight');
+    // $('#service .service-item img:first').addClass('animated fadeInLeft');
+    // $('#service .service-item img:last').addClass('animated fadeInRight');
 });
     </script>
 </body>
