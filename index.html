@@ -21,6 +21,9 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <div id='wx_pic' style='margin:0 auto;display:none;'>
+<img src='http://7d9o6w.com1.z0.glb.clouddn.com/aboutus.png' />
+</div>
 </head>
 
 <body>
@@ -209,15 +212,15 @@
     new WOW().init();
     $(function(){
 
-        $(".navbar").headroom({
-  "tolerance": 5,
-  "offset": 205,
-  "classes": {
-      "initial": "animated",
-    "pinned": "slideDown",
-    "unpinned": "slideUp"
-  }
-});
+    $(".navbar").headroom({
+      "tolerance": 5,
+      "offset": 205,
+      "classes": {
+          "initial": "animated",
+        "pinned": "slideDown",
+        "unpinned": "slideUp"
+      }
+    });
 
     $.scrollUp({
             scrollName: "scrollUp",
