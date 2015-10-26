@@ -391,7 +391,7 @@ font-weight: normal;
         margin-bottom: 0;
         /*padding: 15px!important;*/
 
-        padding-bottom: 2px!important;
+        /*padding-bottom: 2px!important;*/
         -webkit-transition: all .5s;
         transition: all .5s;
     }
