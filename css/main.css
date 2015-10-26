@@ -425,6 +425,10 @@ font-weight: normal;
     #banner, #about-banner {
         height: 200px;
     }
+    #banner  > div{
+ background-color: rgba(0, 0, 0, 0.15);
+  height: 200px;
+}
     #banner p {
         padding-top: 10px;
     }
