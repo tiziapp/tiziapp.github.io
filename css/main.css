@@ -9,14 +9,14 @@ body {
     font-size: 16px;
     line-height: 25px;
 }
-
+/*
 @font-face {
     font-family: 'JetLinkMediumOldStamp500850';
     src: url('JetLinkMediumOldStamp.eot');
     src: url('JetLinkMediumOldStamp.eot?#iefix') format('embedded-opentype'), url('JetLinkMediumOldStamp.woff') format('woff'), url('JetLinkMediumOldStamp.ttf') format('truetype'), url('JetLinkMediumOldStamp.svg#JetLinkMediumOldStamp') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 .img-responsive {
     max-width: 100%!important;
 }
@@ -54,7 +54,7 @@ a {
 .logo {
     position: relative;
     top: -15px;
-    color: #444040;
+    color: #6B6363;
 }
 .logo img {
     display: inline-block;
@@ -67,7 +67,7 @@ a {
     top: 3px;
     font-weight: bolder;
     font-size: 1.4em;
-    font-family: JetLinkMediumOldStamp500850;
+    /*font-family: JetLinkMediumOldStamp500850;*/
 }
 .main-navigation-header {
     background-color: #fff;
@@ -479,7 +479,7 @@ right: -7px;*/
     top: 3px;
     font-weight: bolder;
     font-size: 1.2em;
-    font-family: JetLinkMediumOldStamp500850;
+    /*font-family: JetLinkMediumOldStamp500850;*/logo
 }
 }
 #scrollUp {
