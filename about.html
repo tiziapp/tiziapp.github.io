@@ -161,8 +161,27 @@
 
     // var label = new BMap.Label("苏州梯子网络科技",{offset:new BMap.Size(20,-10)});
     // marker.setLabel(label);
+     var opts = {
+                position: point,
+                offset: new BMap.Size(20, 2)
+            }
+            var label = new BMap.Label("苏州梯子网络科技", opts);
+            label.setStyle({
+    fontSize: "16px", //字号
+    height: "46px", //高度
+    width: "136px", //宽
+    textAlign: "center", //文字水平居中显示
+    padding: "5px 0 0 0", //行高，文字垂直居中显示
+    color: "red",
+    cursor: "pointer"
+});
+            marker.setLabel(label);
+
+            map.addOverlay(marker);
 
     }
+
+
     window.onload = loadJScript;  //异步加载地图
 
 
