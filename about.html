@@ -13,7 +13,7 @@
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/animate.css/3.4.0/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/animate.css/3.4.0/animate.min.css" media="screen and (min-width: 630px)">
     <link href="css/main.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -105,8 +105,19 @@
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
+  <script src="//cdn.bootcss.com/headroom/0.7.0/headroom.min.js"></script>
+<script src=" //cdn.bootcss.com/headroom/0.7.0/jQuery.headroom.min.js"></script>
     <script>
     $(function(){
+        $(".navbar").headroom({
+      "tolerance": 5,
+      "offset": 205,
+      "classes": {
+          "initial": "animated",
+        "pinned": "slideDown",
+        "unpinned": "slideUp"
+      }
+    });
     $.scrollUp({
             scrollName: "scrollUp",
             topDistance: "300",

@@ -197,14 +197,28 @@
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/scrollup/2.4.0/jquery.scrollUp.min.js"></script>
     <script src="//cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+   <script src="//cdn.bootcss.com/headroom/0.7.0/headroom.min.js"></script>
+<script src=" //cdn.bootcss.com/headroom/0.7.0/jQuery.headroom.min.js"></script>
+
 
     <script>
     new WOW().init();
     $(function(){
+
+        $(".navbar").headroom({
+  "tolerance": 5,
+  "offset": 205,
+  "classes": {
+      "initial": "animated",
+    "pinned": "slideDown",
+    "unpinned": "slideUp"
+  }
+});
+
     $.scrollUp({
             scrollName: "scrollUp",
             topDistance: "300",

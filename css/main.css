@@ -45,16 +45,12 @@ a {
 }
 #tz-header {
     background: #fff;
-    /*  position: fixed;*/
-
     width: 100%;
-    height: 75px;
-    /*left: 0;
-    top: 0;
-    z-index: 9990;*/
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    -webkit-backface-visibility: hidden;*/
+    height: 81px;
+
 }
+
+
 .logo {
     position: relative;
     top: -15px;
@@ -75,7 +71,7 @@ a {
 }
 .main-navigation-header {
     background-color: #fff;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     z-index: 9991!important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
@@ -296,7 +292,13 @@ section > div > div >h2 {
     padding-bottom: 15px!important;
     -webkit-transition: all .5s;
     transition: all .5s;
+
 }
+
+ .navbar.headroom--not-top{
+    padding: 0!important;
+ }
+
 
 .cases   h2{
 font-size: 1.6em;
@@ -497,4 +499,80 @@ right: -7px;*/
 }
 #scrollUp:hover {
     background-color: #5496b2;
+}
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-4em)
+    }
+    100% {
+        -webkit-transform: translateY(0)
+    }
+}
+@-moz-keyframes slideDown {
+    0% {
+        -moz-transform: translateY(-4em)
+    }
+    100% {
+        -moz-transform: translateY(0)
+    }
+}
+@-o-keyframes slideDown {
+    0% {
+        -o-transform: translateY(-4em)
+    }
+    100% {
+        -o-transform: translateY(0)
+    }
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-4em)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+.animated.slideDown {
+    -webkit-animation-name: slideDown;
+    -moz-animation-name: slideDown;
+    -o-animation-name: slideDown;
+    animation-name: slideDown
+}
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(-4em)
+    }
+}
+@-moz-keyframes slideUp {
+    0% {
+        -moz-transform: translateY(0)
+    }
+    100% {
+        -moz-transform: translateY(-4em)
+    }
+}
+@-o-keyframes slideUp {
+    0% {
+        -o-transform: translateY(0)
+    }
+    100% {
+        -o-transform: translateY(-4em)
+    }
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(-4em)
+    }
+}
+.animated.slideUp {
+    -webkit-animation-name: slideUp;
+    -moz-animation-name: slideUp;
+    -o-animation-name: slideUp;
+    animation-name: slideUp
 }
