@@ -584,3 +584,15 @@ right: -7px;*/
     -o-animation-name: slideUp;
     animation-name: slideUp
 }
+
+.iw_poi_title{
+    color: #62a3bb;
+    font-size: 1.3em;
+}
+.iw_poi_content{
+    color: #555555;
+    font-size: 1em;
+}
+.cass img:hover{-webkit-transform:rotate(4deg);-ms-transform:rotate(4deg);-o-transform:rotate(4deg);transform:rotate(4deg);}
+
+.service-item:hover{-o-transform: scale(1.15);-ms-transform: scale(1.15);-webkit-transform: scale(1.15);transform: scale(1.15);}
